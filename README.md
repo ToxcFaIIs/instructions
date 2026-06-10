@@ -25,15 +25,15 @@ This prototype assists alcohol label compliance agents by extracting text from l
 ## Setup Instructions
 
 ### Backend
-cd backend
-python -m venv venv
-pip install -r requirements.txt
-uvicorn main:app --reload
+cd backend.
+python -m venv venv.
+pip install -r requirements.txt.
+uvicorn main:app --reload.
 
 ### Frontend
-cd frontend
-npm install
-npm run dev
+cd frontend.
+npm install.
+npm run dev.
 
 ## Assumptions
 - Prototype does not integrate directly with COLA.
